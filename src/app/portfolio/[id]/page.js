@@ -3,12 +3,7 @@ import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 import getPortfolio from "@/libs/getPortfolio";
 import { notFound } from "next/navigation";
 const portfolio = getPortfolio();
-export const metadata = {
-  title:
-    "Portfolio Details - Gerold - Personal Portfolio React  NextJs Template",
-  description:
-    "Portfolio Details - Gerold - Personal Portfolio React  NextJs Template",
-};
+
 
 export default async function PortfolioDetails({ params }) {
   const { id } = await params;

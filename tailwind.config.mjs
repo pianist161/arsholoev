@@ -1,26 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
-Theme Name: Gerold - Personal Portfolio Tailwind CSS Template
-Theme URI: https://themejunction.net/
-Author: Theme-Junction
-Author URI: https://themeforest.net/user/theme-junction
-Description: Gerold - Personal Portfolio Tailwind CSS Template
-
------------------------------------------------------------------------------------
-
-/***************************************************
-==================== JS INDEX ======================
-****************************************************
-
-variables
-breakpoints
-area and spacing
-typography
-border 
-gradient
-animations
-shadow
-container
 
 ****************************************************/
 /** @type {import('tailwindcss').Config} */

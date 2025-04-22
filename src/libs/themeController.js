@@ -1,6 +1,6 @@
 const themeController = () => {
   const html = document.querySelector("html");
-  const isDark = html?.classList?.contains("dark");
+  const isDark = html?.classList?.contains("light");
   if (isDark) {
     html.classList.add("dark");
   } else {
