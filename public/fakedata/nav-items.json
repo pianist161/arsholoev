@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Services",
+    "path": "#services",
+    "path2": "/#services"
+  },
+  {
+    "name": "Works",
+    "path": "#portfolio",
+    "path2": "/#portfolio"
+  },
+  {
+    "name": "Resume",
+    "path": "#resume",
+    "path2": "/#resume"
+  },
+  {
+    "name": "Skills",
+    "path": "#skills",
+    "path2": "/#skills"
+  },
+
+  {
+    "name": "Contact",
+    "path": "#contact",
+    "path2": "/#contact"
+  }
+]

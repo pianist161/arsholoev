@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "img": "/img/services/1.png",
+    "iconName": "flaticon-design",
+    "desc": "Build responsive, high-performance React applications using modular architecture and optimized components.",
+    "shortDesc": "Build fast and responsive React-based applications with reusable components, clean architecture, and full responsiveness across devices.",
+    "desc1": "I create modern web applications with React, ensuring code reusability, clarity, and performance. My focus is on building scalable frontend solutions.",
+    "desc2": "I work with technologies like React, Redux Toolkit, and Webpack to deliver efficient and maintainable code tailored to your product’s needs.",
+    "totalProject": "10 Projects",
+    "process": {
+      "title": "Development Process",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-ux-design",
+      "desc": "From planning and prototyping to deployment, I follow best practices and modern workflows for web development.",
+      "processItems": [
+        "Requirement Analysis",
+        "Component Architecture Design",
+        "API Integration & State Management",
+        "Performance Optimization",
+        "Responsive Testing",
+        "Deployment & Maintenance"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Implementation",
+    "img": "/img/services/2.png",
+    "iconName": "flaticon-ux-design",
+    "desc": "Turn design mockups into responsive, accessible, and maintainable user interfaces.",
+    "shortDesc": "Convert Figma designs into pixel-perfect, responsive UI with attention to accessibility, usability, and clean CSS/Styled Components.",
+    "desc1": "I work closely with design systems and tools like Figma to translate mockups into high-quality frontend implementations.",
+    "desc2": "Special attention is given to layout precision, accessibility (ARIA), and responsive behavior across devices.",
+    "totalProject": "11 Projects",
+    "process": {
+      "title": "Design to Code Workflow",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-design",
+      "desc": "Bringing designs to life with CSS modules, styled-components, and utility frameworks.",
+      "processItems": [
+        "Design Analysis",
+        "Semantic HTML Structure",
+        "Responsive Layouts",
+        "Accessibility Enhancements",
+        "UI Interactivity",
+        "Cross-Browser Testing"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "API Integration",
+    "img": "/img/services/3.png",
+    "iconName": "flaticon-web-design",
+    "desc": "Seamlessly connect frontend to backend services using modern data-fetching techniques.",
+    "shortDesc": "Connect frontend with RESTful APIs using Axios or RTK Query, handle loading states, errors, and dynamic data with Redux Toolkit.",
+    "desc1": "I manage API calls with tools like RTK Query and Axios, ensuring robust data fetching, caching, and error handling.",
+    "desc2": "I implement loading states, notifications, and fallback UI for seamless user experience and maintainable code.",
+    "totalProject": "15 Projects",
+    "process": {
+      "title": "Integration Pipeline",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-design",
+      "desc": "Reliable data integration for modern SPAs, focused on clean state management and maintainability.",
+      "processItems": [
+        "Define API Requirements",
+        "Setup Redux/RTK Query",
+        "Implement Query/Mutation Logic",
+        "Error & Loading State Management",
+        "Component Integration",
+        "Performance Review"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Component Libraries",
+    "img": "/img/services/4.png",
+    "iconName": "flaticon-3d-movie",
+    "desc": "Accelerate development with reusable UI libraries, customized for your product’s design.",
+    "shortDesc": "Use and customize UI libraries like Material UI or Tailwind to speed up development while keeping the design clean and consistent.",
+    "desc1": "I integrate and style libraries such as Material UI, Ant Design, and Tailwind CSS to maintain visual consistency and speed up development.",
+    "desc2": "Each component is built to be flexible, reusable, and aligned with your brand's design system.",
+    "totalProject": "10 Projects",
+    "process": {
+      "title": "Library Integration Flow",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-design",
+      "desc": "From setup to fine-tuning, I ensure every library fits your UI needs while keeping performance optimal.",
+      "processItems": [
+        "Choose Library Based on Requirements",
+        "Theming & Styling Setup",
+        "Component Reusability Planning",
+        "Responsive Customization",
+        "Integration with State",
+        "Testing & Refactoring"
+      ]
+    }
+  }
+]
