@@ -9,9 +9,8 @@ const Footer = () => {
 	return (
 		<footer>
 			<div
-				className={`footer-inner bg-seondary-color ${
-					footerType === 2 ? "dark:bg-seondary-color" : "dark:bg-dark-color"
-				}`}
+				className={`footer-inner bg-seondary-color ${footerType === 2 ? "dark:bg-seondary-color" : "dark:bg-dark-color"
+					}`}
 			>
 				<div className="container">
 					<div className="flex flex-col items-center pt-50px pb-5 md:pt-60px">
@@ -21,7 +20,7 @@ const Footer = () => {
 						<div className="footer-logo w-75px h-75px mb-6">
 							<Link href="/">
 								<Image
-									src="/img/logo/logo.png"
+									src="/img/logo/Purple M.png"
 									alt=""
 									width={400}
 									height={400}
@@ -67,20 +66,18 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div
-							className={`copyright ${
-								footerType === 2 || footerType === 3
+							className={`copyright ${footerType === 2 || footerType === 3
 									? "text-primary-color"
 									: "text-gray-color"
-							} whitespace-nowrap text-sm md:text-base mt-5`}
+								} whitespace-nowrap text-sm md:text-base mt-5`}
 						>
 							© 2024 All rights reserved by{" "}
 							<Link
 								href="/"
-								className={`${
-									footerType === 2 || footerType === 3
+								className={`${footerType === 2 || footerType === 3
 										? "text-primary-color "
 										: "text-white-color"
-								} hover:text-primary-color`}
+									} hover:text-primary-color`}
 							>
 								ThemeJunction
 							</Link>
