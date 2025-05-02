@@ -26,7 +26,7 @@ const PortfolioDetailsPrimary = () => {
 	const portfolio = getAPortfolio(currentId);
 	const pervPortfolio = getAPortfolio(prevId);
 	const nextPortfolio = getAPortfolio(nextId);
-	const { title, title2, desc, desc1, desc2, img, descItems, statusItem } =
+	const { title, title2, url, desc, desc1, desc2, img, descItems, statusItem, } =
 		portfolio || {};
 	const isPrevProject = currentId > 1;
 	const isNextProject = currentId < totalPorfolio;
@@ -64,27 +64,29 @@ const PortfolioDetailsPrimary = () => {
 													{desc}
 												</p>
 												<div>
-													<ButtonPrimary
-														className={"group/nested"}
-														url={"/#contact"}
-													>
-														live preview
-														<i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
-													</ButtonPrimary>
+													<div onClick={() => window.open(url, "_blank")} role="link">
+														<ButtonPrimary
+															className={"group/nested"}
+
+														>
+															live preview
+															<i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
+														</ButtonPrimary>
+													</div>
 												</div>
 											</div>
 											<ul className="grid grid-cols-2 gap-x-15px lg:gap-x-5 gap-y-5 md:gap-y-30px">
 												{statusItem?.length
 													? statusItem?.map(({ title, desc }, idx) => (
-															<li key={idx}>
-																<p className="text-primary-color-light dark:text-white-color mb-1.5">
-																	{title}
-																</p>
-																<p className="text-primary-color-light dark:text-white-color font-medium mb-1.5">
-																	{desc}
-																</p>
-															</li>
-													  ))
+														<li key={idx}>
+															<p className="text-primary-color-light dark:text-white-color mb-1.5">
+																{title}
+															</p>
+															<p className="text-primary-color-light dark:text-white-color font-medium mb-1.5">
+																{desc}
+															</p>
+														</li>
+													))
 													: ""}
 											</ul>
 										</div>
@@ -152,24 +154,23 @@ const PortfolioDetailsPrimary = () => {
 												<div>
 													{descItems?.length
 														? descItems?.map(({ title, desc }, idx) => (
-																<div
-																	key={idx}
-																	className={`flex gap-15px xl:gap-x-50px flex-wrap ${
-																		descItems?.length - 1 === idx
-																			? ""
-																			: " mb-10 md:mb-50px"
+															<div
+																key={idx}
+																className={`flex gap-15px xl:gap-x-50px flex-wrap ${descItems?.length - 1 === idx
+																	? ""
+																	: " mb-10 md:mb-50px"
 																	}`}
-																>
-																	<h4 className="max-w-265px w-full">
-																		<span className="text-primary-color-light dark:text-white-color uppercase relative z-0 text-xl font-bold">
-																			{title}
-																		</span>
-																	</h4>
-																	<p className="text-primary-color-light dark:text-white-color mb-15px md:mb-5 max-w-3xl w-full">
-																		{desc}
-																	</p>
-																</div>
-														  ))
+															>
+																<h4 className="max-w-265px w-full">
+																	<span className="text-primary-color-light dark:text-white-color uppercase relative z-0 text-xl font-bold">
+																		{title}
+																	</span>
+																</h4>
+																<p className="text-primary-color-light dark:text-white-color mb-15px md:mb-5 max-w-3xl w-full">
+																	{desc}
+																</p>
+															</div>
+														))
 														: ""}
 												</div>
 											</div>
